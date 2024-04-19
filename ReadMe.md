@@ -6,6 +6,14 @@ A webserver coded with c/c++ working on linux
 
 This is a static webserver, which was coded with c/c++ on linux. It hanles `GET` requests to generate responses with resources.
 
+Files supported:
++ `htm`/`html`
++ `js`
++ `css`
++ `jpg`/`jpeg`
++ `png`
++ other plain text files
+
 Here is the frame diagram of my project.
 
 ![frame diagram](doc/frame.png)
@@ -44,7 +52,7 @@ sudo make install
 
 ### 4. How to run
 
-once you have built the project, you can run the excutable file `webserver` now. `sudo` is neccessary also.
+Once you have built the project, you can run the excutable file `webserver` now. `sudo` is neccessary also.
 
 ```bash
 sudo ./webserver
