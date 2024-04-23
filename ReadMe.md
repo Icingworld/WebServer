@@ -66,7 +66,7 @@ If you want to test the server, `webbench` has already been included.
 cd webbench && make
 ```
 
-you will get an excutable file `webbench`. Then run it with some params. More information can be found in [webbench/README.md](webbench/README.md). Here is an example, which means it simulates 200 clients using HTTP/1.1 to request the url in 30 seconds.
+You will get an excutable file `webbench`. Then run it with some params. More information can be found in [webbench/README.md](webbench/README.md). Here is an example, which means it simulates 200 clients using HTTP/1.1 to request the url in 30 seconds.
 
 ```bash
 ./webbench -c 200 -t 30 -2 http://127.0.0.1:your_port/
