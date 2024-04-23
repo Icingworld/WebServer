@@ -6,10 +6,11 @@ PREFIX?=	/usr/local/webbench
 VERSION=1.5
 TMPDIR=/tmp/webbench-$(VERSION)
 
-all:   webbench tags
+#all:   webbench tags
+all:   webbench
 
-tags:  *.c
-	-ctags *.c
+#tags:  *.c
+#	-ctags *.c
 
 install: webbench
 	install -d $(DESTDIR)$(PREFIX)/bin
