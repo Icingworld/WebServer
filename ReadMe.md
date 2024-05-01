@@ -50,7 +50,7 @@ sudo make install
 
 `sudo` is neccessary because some directories like `/usr/` and `/var/` might be out of auth.
 
-### 4. How to run
+## 4. How to run
 
 Once you have built the project, you can run the excutable file `webserver` now. `sudo` is neccessary also.
 
@@ -58,7 +58,7 @@ Once you have built the project, you can run the excutable file `webserver` now.
 sudo ./webserver
 ```
 
-### 5. WebBench
+## 5. WebBench
 
 If you want to test the server, `webbench` has already been included.
 
@@ -72,7 +72,7 @@ You will get an excutable file `webbench`. Then run it with some params. More in
 ./webbench -c 200 -t 30 -2 http://127.0.0.1:your_port/
 ```
 
-### 6. todo
+## 6. Todo
 
 Since the project is build by such a begginer like me, there are still many works to do. Here is the list.
 
