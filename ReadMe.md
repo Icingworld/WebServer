@@ -32,7 +32,7 @@ With regard to log system, I use a double buffer async log system, here is the l
 You could build this project in a specific directory, such as `build`. Here is an example below.
 
 ```bash
-mkdir && cd build
+mkdir build && cd build
 ```
 
 ```bash
