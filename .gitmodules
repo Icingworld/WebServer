@@ -1,0 +1,3 @@
+[submodule "third-party/webbench"]
+	path = third-party/webbench
+	url = https://github.com/EZLippi/WebBench.git
